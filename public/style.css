@@ -1,0 +1,24 @@
+.row-spaced{
+	display: flex;
+	justify-content: space-between;
+}
+
+.wrapper{
+	max-width: 960px;
+	margin: 0 auto;
+}
+body{
+	background-color: #bf8040;
+}
+.topnav li, a {
+	float: top;
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    background-color: #ff0000;
+}
+html{
+	text-align: center;
+}
