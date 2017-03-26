@@ -35,7 +35,9 @@ if (isset($_POST['emaillogin']) && filter_var($_POST['emaillogin'],FILTER_VALIDA
         if ($count > 0)
         {
             $messageLogin = 'Here is your download just click here :)';
-            header("location:../public/index.php?message=$messageLogin");
+            header("location:../public/index.html?message=$messageLogin");
+
+
         }
         else
         {
